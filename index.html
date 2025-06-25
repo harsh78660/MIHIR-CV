@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Curriculum Vitae - Mihir Patel</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    .cv-container {
+      background-color: #fff;
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section-title {
+      font-size: 20px;
+      border-left: 5px solid #3498db;
+      padding-left: 10px;
+      margin-bottom: 10px;
+      color: #2980b9;
+    }
+    .entry {
+      margin-bottom: 15px;
+    }
+    .entry-title {
+      font-weight: bold;
+      color: #34495e;
+    }
+    .entry-sub {
+      font-style: italic;
+      color: #555;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #3498db;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      .cv-container {
+        padding: 15px;
+      }
+      table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+      }
+      thead tr {
+        display: none;
+      }
+      td {
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+      }
+      td::before {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        white-space: nowrap;
+        font-weight: bold;
+        text-align: left;
+      }
+      td:nth-of-type(1)::before { content: "Degree/Course"; }
+      td:nth-of-type(2)::before { content: "Board/University"; }
+      td:nth-of-type(3)::before { content: "Year"; }
+      td:nth-of-type(4)::before { content: "Subjects"; }
+      td:nth-of-type(5)::before { content: "Percentage"; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <h1>Curriculum Vitae</h1>
+
+    <!-- Remaining content stays unchanged -->
+
+
+
+
+    <div class="section">
+      <div class="section-title">Personal Information</div>
+      <p><strong>Name:</strong> Patel Mihir Hasmukhbhai</p>
+      <p><strong>Address:</strong> 5, Simandhar Society, Anand - Sojitra Road, Anand: 388001</p>
+      <p><strong>Date of Birth:</strong> 22/09/1987</p>
+      <p><strong>Phone:</strong> +91 98700 85343</p>
+      <p><strong>Email:</strong> mihirpatel22987@gmail.com</p>
+      <p><strong>Languages:</strong> English, Gujarati, Hindi</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Education</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Degree/Course</th>
+            <th>Board/University</th>
+            <th>Year</th>
+            <th>Subjects</th>
+            <th>Percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>I.T.I Apprentice</td>
+            <td>GSFC</td>
+            <td>2008</td>
+            <td>Training</td>
+            <td>74%</td>
+          </tr>
+          <tr>
+            <td>I.T.I NCVT</td>
+            <td>V.V. Nagar</td>
+            <td>2007</td>
+            <td>MMCP</td>
+            <td>77%</td>
+          </tr>
+          <tr>
+            <td>H.S.C</td>
+            <td>G.S.H.E.B</td>
+            <td>2005</td>
+            <td>English, Economics, Commerce, Accounts, Social Studies & Sanskrit</td>
+            <td>53%</td>
+          </tr>
+          <tr>
+            <td>S.S.C</td>
+            <td>G.S.E.B</td>
+            <td>2003</td>
+            <td>English, Science, Mathematics, Social Studies and Sanskrit</td>
+            <td>53%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Other Qualifications</div>
+      <p>Basic Computer Course from Adarsh Technical Institute, Anand.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Experience</div>
+      <div class="entry">
+        <div class="entry-title">Farm Sons Ltd., Nandesari</div>
+        <div class="entry-sub">Maintenance Operator & Mechanical Operator (2008 - 2010)</div>
+      </div>
+      <div class="entry">
+        <div class="entry-title">Fredrunburg Gala Brushes, Adas</div>
+        <div class="entry-sub">Maintenance Operator & Mechanical Operator (2012 - 2014)</div>
+      </div>
+      <div class="entry">
+        <div class="entry-title">Siyaa Enterprise, Anand Civil Court</div>
+        <div class="entry-sub">Housekeeping Supervisor (2015 - 2016)</div>
+      </div>
+      <div class="entry">
+        <div class="entry-title">Suguna Poultry Foods Ltd, V.V. Nagar, GIDC</div>
+        <div class="entry-sub">Supervisor (2017 - 2018)</div>
+      </div>
+      <div class="entry">
+        <div class="entry-title">Premium Food Pvt. Ltd.</div>
+        <div class="entry-sub">Supervisor (2019 - 2023)</div>
+        <p>Handled operations, team coordination, and ensured quality compliance in food production.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-title">CLR Industries, GIDC</div>
+        <div class="entry-sub">Supervisor (2023 - 2025)</div>
+        <p>Supervised manufacturing processes, improved team efficiency, and managed shift operations.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Key Skills</div>
+      <ul>
+        <li>Computer Application</li>
+        <li>Conflict Resolution</li>
+        <li>Good Leadership</li>
+        <li>Time and Priority Management</li>
+        <li>Problem Solving</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Declaration</div>
+      <p>I hereby declare that the particulars provided above are true and correct to the best of my knowledge.</p>
+      <p><strong>Yours Faithfully,</strong><br>(M. H. Patel)</p>
+    </div>
+  </div>
+</body>
+</html>
